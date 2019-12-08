@@ -19,10 +19,14 @@ enum ExampleItem: CaseIterable {
     
     private var data: (title: String, subtitle: String) {
         switch self {
-        case .uiControlBlocks: return ("UIControl blocks", "Use closures instead of target - selector pattern")
-        case .viewControllerComposition: return ("View controller composition", "Simply embed view controller into another one")
-        case .mapViewController: return ("Map View Controller", "Operations on MKMapView")
-        case .present: return ("Present", "Example usage of starting flow coordinator with modal present")
+        case .uiControlBlocks:
+            return ("uicontrol_blocks".localized(), "uicontrol_blocks_description".localized())
+        case .viewControllerComposition:
+            return ("vc_composition".localized(), "vc_composition_description".localized())
+        case .mapViewController:
+            return ("map".localized(), "map_description".localized())
+        case .present:
+            return ("present".localized(), "present_description".localized())
         }
     }
 }

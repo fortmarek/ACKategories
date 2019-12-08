@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ACKategories
+
+  Created by Jakub Olejník on 08/12/2019.
+  Copyright © 2019 Ackee, s.r.o. All rights reserved.
+*/
+
+"uicontrol_blocks" = "UIControl blocks";
+"uicontrol_blocks_description" = "Use closures instead of target - selector pattern";
+"vc_composition" = "View controller composition";
+"vc_composition_description" = "Simply embed view controller into another one";
+"map" = "MapView Controller";
+"map_description" = "Operations on MKMapView";
+"present" = "Present";
+"present_description" = "Example usage of starting flow coordinator with modal present";
