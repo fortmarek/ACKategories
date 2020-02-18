@@ -13,6 +13,12 @@ jobs:
         with:
           inputs: "ACKategories-iOS"
           output: "Documentation"
+      - uses: actions/checkout@v1
+      - name: Generate Documentation
+        uses: SwiftDocOrg/swift-doc@master
+        with:
+          inputs: "ACKategoriesCore"
+          output: "Documentation"
       - name: Upload Documentation to Wiki
         uses: SwiftDocOrg/github-wiki-publish-action@master
         with:
